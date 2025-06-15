@@ -1,0 +1,2864 @@
+{
+  "series": [
+    {
+      "id": 1,
+      "name": "Ranma ½",
+      "author": "Rumiko Takahashi",
+      "info_link": "https://en.wikipedia.org/wiki/Ranma_%C2%BD",
+      "source": "Viz translation; scraped from mangapill.com"
+    }
+  ],
+  "chapters": [
+    {
+      "seriesId": 1,
+      "name": "Here's Ranma (らんまが来た, Ranma ga Kita)",
+      "number": 1,
+      "id": 1,
+      "pageCount": 34
+    },
+    {
+      "seriesId": 1,
+      "name": "Ranma's Secret (らんまの秘密, Ranma no Himitsu)",
+      "number": 2,
+      "id": 2,
+      "pageCount": 23
+    },
+    {
+      "seriesId": 1,
+      "name": "I Hate Men! (男なんか大っ嫌い, Otoko nanka Daikkirai)",
+      "number": 3,
+      "id": 3,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "Never, Never, Never (断じて認めん, Danjite Mitomen)",
+      "number": 4,
+      "id": 4,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "To the Tree-Borne Kettle-Girl (木の上のヤカンの女へ, Ki no Ue no Yakan no Onna e)",
+      "number": 5,
+      "id": 5,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "Body and Soul (心も体も, Kokoro mo Karada mo)",
+      "number": 6,
+      "id": 6,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "You'll Understand Soon Enough (すぐにわかるよ, Sugu ni Wakaru yo)",
+      "number": 7,
+      "id": 7,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "Because There's a Girl He Likes (好きな女がいるんだから, Suki na Hito ga Irun Dakara)",
+      "number": 8,
+      "id": 8,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "You're Cute When You Smile (笑うとかわいいよ, Warau to kawaii yo)",
+      "number": 9,
+      "id": 9,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "The Hunter (乱馬を追って来た男, Ranma wo otte kita otoko)",
+      "number": 10,
+      "id": 10,
+      "pageCount": 19
+    },
+    {
+      "seriesId": 1,
+      "name": "Bread Feud (対決, Taiketsu)",
+      "number": 11,
+      "id": 11,
+      "pageCount": 19
+    },
+    {
+      "seriesId": 1,
+      "name": "Showdown (続・対決, Zoku taiketsu)",
+      "number": 12,
+      "id": 12,
+      "pageCount": 19
+    },
+    {
+      "seriesId": 1,
+      "name": "A Bad Cut (けがはなくとも, Kega wa naku to mo)",
+      "number": 13,
+      "id": 13,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "Who Says You're Cute (かわいくねえ, Kawaikunē)",
+      "number": 14,
+      "id": 14,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "The Transformation of Ryoga (良牙変身, Ryōga henshin)",
+      "number": 15,
+      "id": 15,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "He's Got a Beef (恨んで当然, Urande tōzen)",
+      "number": 16,
+      "id": 16,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "Kodachi, The Black Rose (黒バラの小太刀, Kuro bara no Kodachi)",
+      "number": 17,
+      "id": 17,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "The Love of the Black Rose (黒バラの恋, Kuro bara no koi)",
+      "number": 18,
+      "id": 18,
+      "pageCount": 26
+    },
+    {
+      "seriesId": 1,
+      "name": "Take Care of My Sister (妹をよろしく, Imōto wo yoroshiku)",
+      "number": 19,
+      "id": 19,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "I'll See That You Lose (負けてもらうぜ, Makete morau ze)",
+      "number": 20,
+      "id": 20,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "Hot Competition (熱闘新体操Netto shintaisō)",
+      "number": 21,
+      "id": 21,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "I Give Up (あきらめますわ, Akiramemasu wa)",
+      "number": 22,
+      "id": 22,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "Darling Charlotte (愛しのシャルロット, Itoshi no Sharurotto)",
+      "number": 23,
+      "id": 23,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "A Kiss in the Rink (リンクにくちづけ, Rinku ni kuchiduke)",
+      "number": 24,
+      "id": 24,
+      "pageCount": 19
+    },
+    {
+      "seriesId": 1,
+      "name": "Lips at a Loss (戸惑うくちびる, Tomadō kuchibiru)",
+      "number": 25,
+      "id": 25,
+      "pageCount": 19
+    },
+    {
+      "seriesId": 1,
+      "name": "Lips at War (リップ・バトル, Rippu batoru)",
+      "number": 26,
+      "id": 26,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "I'll Never Let Go (この手ははなさない, Kono te ha hanasanai)",
+      "number": 27,
+      "id": 27,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "Burning the Bridges (背水の陣, Haisui no jin)",
+      "number": 28,
+      "id": 28,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "Ryoga Explodes! (良牙爆発, Ryoga shakuhatsu)",
+      "number": 29,
+      "id": 29,
+      "pageCount": 19
+    },
+    {
+      "seriesId": 1,
+      "name": "The Waters of Love (愛の水柱, Ai no mizusbashira)",
+      "number": 30,
+      "id": 30,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "Kiss of Death (死の接吻, Shi no seppun)",
+      "number": 31,
+      "id": 31,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "You I Love (我愛ニー, Wō ai nii)",
+      "number": 32,
+      "id": 32,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "Akane Gets Shampooed (あかねVS.シャンプー, Akane VS. Shanpū)",
+      "number": 33,
+      "id": 33,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "Shampoo Cleans Up (必殺シャンプー, Hissatsu Shanpū)",
+      "number": 34,
+      "id": 34,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Formula #911 (ブレンドナンバー119, Burendo Nanbā 199)",
+      "number": 35,
+      "id": 35,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Bie Liao (Goodbye) (別了（ビエラ）, Bie ra)",
+      "number": 36,
+      "id": 36,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "Looking For a Weak Spot (弱点さがし, Jakuten sagashi)",
+      "number": 37,
+      "id": 37,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "Weak Spot—Found (弱点みつけた, Jakuten mitsuketa)",
+      "number": 38,
+      "id": 38,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Cat Hell (猫地獄への招待, Neko jigoku he no shōtai)",
+      "number": 39,
+      "id": 39,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Cat-Fu (猫拳パニック, Neko-ken panikku)",
+      "number": 40,
+      "id": 40,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "You'd Have Kissed Anybody (誰でもよかったの, Dare demo yokatta no)",
+      "number": 41,
+      "id": 41,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Shampoo Rides Again (シャンプー再来日, Shanpū sairainichi)",
+      "number": 42,
+      "id": 42,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Attack of the Wild Mousse (ムース襲来, Mūsu shūrai)",
+      "number": 43,
+      "id": 43,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Martial Arts Magic Show (格闘演芸会, Kakutō engei-kai)",
+      "number": 44,
+      "id": 44,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "Cat's Tongue Got You (猫舌やぶり, Neko shita yaburi)",
+      "number": 45,
+      "id": 45,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Phoenix Pill (秘薬THE不死鳥丸, Hiyaku THE fushichō-gan)",
+      "number": 46,
+      "id": 46,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "All's Fair at the Fair (夜店でバトル, Yomise de batoru)",
+      "number": 47,
+      "id": 47,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "War of the Melons (スイカ割りバトル, Suika wari batoru)",
+      "number": 48,
+      "id": 48,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "Naval Engagement (婿とりマリンウォーズ, Muko tori marin wōzu)",
+      "number": 49,
+      "id": 49,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Kitten of the Sea (突撃 シー・キャット, Totsugeki shii kyatto)",
+      "number": 50,
+      "id": 50,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Care to Join Me (わしと組まんか, Washito kumima n ka)",
+      "number": 51,
+      "id": 51,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Training Meals (修行DEディナー, Shugyou DE dinā)",
+      "number": 52,
+      "id": 52,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Breaking Point (爆砕点穴, Bakusai tenketsu)",
+      "number": 53,
+      "id": 53,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Immortal Man (不死身の男, Fujimi no otoko)",
+      "number": 54,
+      "id": 54,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Fast Break (爆砕勝負, Bakusai shoubu)",
+      "number": 55,
+      "id": 55,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Way of Tea (格闘茶道どす, Kakutō sadō dosu)",
+      "number": 56,
+      "id": 56,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Meet Miss Satsuki (茶月はんどす, Satsuki ha n dosu)",
+      "number": 57,
+      "id": 57,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Proposal Accepted (縁談成立どす, Endan seiritsu dosu)",
+      "number": 58,
+      "id": 58,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "It's Fast or It's Free (格闘出前レース, Kakutō demae rēsu)",
+      "number": 59,
+      "id": 59,
+      "pageCount": 21
+    },
+    {
+      "seriesId": 1,
+      "name": "Eyes On the Prize (ゴールをめざせ, Gōru wo mezase)",
+      "number": 60,
+      "id": 60,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "Noodles, Anyone (召しませ ラーメン, Meshimase rāmen)",
+      "number": 61,
+      "id": 61,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "I Won't Eat It! (食ってたまるか, Kutte tamaru ka)",
+      "number": 62,
+      "id": 62,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Evil Wakes (邪悪の復活, Jāku no fukkatsu)",
+      "number": 63,
+      "id": 63,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "He's Something Else (ただ者ではない, Tada mono dehanai)",
+      "number": 64,
+      "id": 64,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Bathhouse Battle (バトル・ザ・銭湯, Batoru ze sentō)",
+      "number": 65,
+      "id": 65,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Moonlight Serenade (ムーンライト ボンバー, Mūnraito bonbā)",
+      "number": 66,
+      "id": 66,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Wrath of Happosai (八宝斉 怒る, Happosai ikaru)",
+      "number": 67,
+      "id": 67,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Scent of a Woman (効きます 女嫌香, Kikimasu nyokenko)",
+      "number": 68,
+      "id": 68,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Fathers Know Best (親父の逆襲, Oyaji no gyakushu)",
+      "number": 69,
+      "id": 69,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "Instant Spring (即席男溺泉, Sokuseki Nanniichuan)",
+      "number": 70,
+      "id": 70,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "No Need for Ranma (助太刀無用, Sukedachi muyo)",
+      "number": 71,
+      "id": 71,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Destroyer Strikes (恐怖、看板男, Kyofu, kanban otoko)",
+      "number": 72,
+      "id": 72,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Just One More Kiss (ワンモア キッス, Wan moa kissu)",
+      "number": 73,
+      "id": 73,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Wherefore Art Thou, Romeo (バトルロイヤル・ロミオ, Batoru roiyaru Romeo)",
+      "number": 74,
+      "id": 74,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Romeo Romeo Romeo! (おれがロミオだ, Ore ga Romeo da)",
+      "number": 75,
+      "id": 75,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "Not Your Typical Juliet (ジュリエット ゲーム, Juliet gemu)",
+      "number": 76,
+      "id": 76,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "A Kiss to the Victor (勝利のキッス, Shori no kissu)",
+      "number": 77,
+      "id": 77,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Quest for the Hidden Spring (めざせ、和風男溺泉, Mezase, wafu Nanniichuan)",
+      "number": 78,
+      "id": 78,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Trouble with Girls' Locker Rooms (女子更衣室の罠, Joshi koishitsu no wana)",
+      "number": 79,
+      "id": 79,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "From the Spring, Springs a Message (和風男溺泉からのお知らせ, Wafu Nanniichuan kara no o shirase)",
+      "number": 80,
+      "id": 80,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "The Way the Cookie Crumbles (黒バラクッキー, Kuro bara kukki)",
+      "number": 81,
+      "id": 81,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "Negative Feelings (ネバー ギブアップ, Nega gibuappu)",
+      "number": 82,
+      "id": 82,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Take Me Out to the Bathtub (私をお風呂につれてって, Watashi o ofuro ni tsurete tte)",
+      "number": 83,
+      "id": 83,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "...I Ate the Whole Thing (全部食っちゃうぞ, Zenbu kutchau zo)",
+      "number": 84,
+      "id": 84,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Okonomiyaki Means I Love You (お好み焼きの右京, Okonomiyaki no Ukyō)",
+      "number": 85,
+      "id": 85,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Saucy Reply (お好みデスマッチ, Okonomi desumatchi)",
+      "number": 86,
+      "id": 86,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Ukyo's Secret (右京の正体, Ukyo no shotai)",
+      "number": 87,
+      "id": 87,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Ryoga vs. Ukyo (良牙VS.右京, Ryōga vs. Ukyō)",
+      "number": 88,
+      "id": 88,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Love Letters in the Sauce (完璧なラブレター, Kanpeki na rabureta)",
+      "number": 89,
+      "id": 89,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Ryoga's What! (私は良牙の許婚, Watashi wa Ryōga no iinazuke)",
+      "number": 90,
+      "id": 90,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "At Long Last...the Date! (憧れのデート, Akogare no deto)",
+      "number": 91,
+      "id": 91,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Happosai Days Are Here Again (ハッピーとコロン, Happy to Cologne)",
+      "number": 92,
+      "id": 92,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "One Moment to Love (一瞬の恋, Isshun no koi)",
+      "number": 93,
+      "id": 93,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "I Won't Fall in Love (誰が惚れるか, Dare ga horeru ka)",
+      "number": 94,
+      "id": 94,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Abduction of...Akane (さらわれたあかね, Sarawareta Akane)",
+      "number": 95,
+      "id": 95,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Duck, Ranma, Duck! (乱馬アヒル化計画, Ranma ahiru ka keikaku)",
+      "number": 96,
+      "id": 96,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Akane Becomes a Duck (あかねアヒルになる, Akane ahiru ni naru)",
+      "number": 97,
+      "id": 97,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Fowl Play (がんばれムース, Ganbare Mousse)",
+      "number": 98,
+      "id": 98,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Happiest Mousse (ムースのしあわせ, Mousse no shiawase)",
+      "number": 99,
+      "id": 99,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Tsubasa Kurenai Busts Loose! (突撃！紅つばさ, Totsugeki! Kurenai Tsubasa)",
+      "number": 100,
+      "id": 100,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Lunchtime Lunacy (突撃！ランチタイム, Totsugeki! Ranchitaimu)",
+      "number": 101,
+      "id": 101,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Perfect Match (突撃！正しいデート, Totsugeki! Tadashii deto)",
+      "number": 102,
+      "id": 102,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "Ryoga, Come Home (良牙 家に帰る, Ryoga ie ni kaeru)",
+      "number": 103,
+      "id": 103,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "Oh, Brother (おかえりなさい おにちゃん, Okaeri nasai oniichan)",
+      "number": 104,
+      "id": 104,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Get Lost, Yoiko! (迷子の良い子, Maigo no Yoiko)",
+      "number": 105,
+      "id": 105,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Ultimate Technique (まぼろしの奥義, Maboroshi no ogi)",
+      "number": 106,
+      "id": 106,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Get the Secret Scroll! (秘伝書を奪え, Hidensho o ubae)",
+      "number": 107,
+      "id": 107,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Fire-Burst of Terror! (炸裂!!八宝大華輪, Sakuretsu!! happo-dai-karin)",
+      "number": 108,
+      "id": 108,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Embraceable You (抱きしめずにはいられない, Dakishimezu ni wa irarenai)",
+      "number": 109,
+      "id": 109,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Hold Me Close (抱きしめてTONIGHT, Dakishimete Tounaito)",
+      "number": 110,
+      "id": 110,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Akane's Power-Up! (あかね パワーアップ, Akane Pawa Appu)",
+      "number": 111,
+      "id": 111,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Super Badminton (剛力羽根つき, Goriki hanetsuki)",
+      "number": 112,
+      "id": 112,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "Serious Side Effects (副作用の悲劇, Serious Side Effects)",
+      "number": 113,
+      "id": 113,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Return of the Principal (帰ってきた校長, Kaette kita kocho)",
+      "number": 114,
+      "id": 114,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Journey Into the Principal's Office (冒険！校長室, Boken! kocho shitsu)",
+      "number": 115,
+      "id": 115,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Principal of the Thing (校長の息子, Kocho no musuko)",
+      "number": 116,
+      "id": 116,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "One Hairy Day (みんな危機一髪, Minna kiki ippatsu)",
+      "number": 117,
+      "id": 117,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Shear Folly (一髪逆転, Ippatsu gyakuten)",
+      "number": 118,
+      "id": 118,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Gonna Make You Tardy! (遅刻させまーす, Chikoku sasema su)",
+      "number": 119,
+      "id": 119,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Soap of Happiness (幸福の抗水セッケン, Shiawase no kosui sekken)",
+      "number": 120,
+      "id": 120,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Cupids, Draw Back Your Bow (キューピッドの罠, Cupid no wana)",
+      "number": 121,
+      "id": 121,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Don't Follow Me (ついてこないで, Tsuite konaide)",
+      "number": 122,
+      "id": 122,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Who Do You Love (どっちが大切？, Dotchi ga taisetsu)",
+      "number": 123,
+      "id": 123,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Give Me a Little Hug (愛のさば折り, Ai no saba ori)",
+      "number": 124,
+      "id": 124,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "The Legendary Moxibustion of Evil (伝説の邪灸, Densetsu no jakyu)",
+      "number": 125,
+      "id": 125,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "The World's Weakest Man (最弱の男, Saijaku no otoko)",
+      "number": 126,
+      "id": 126,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Weak for Life! (乱馬　再起不能!, Ranma saiki funo!)",
+      "number": 127,
+      "id": 127,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Valley of Moxibustion (風雲お灸の里, Fuun okyu no sato)",
+      "number": 128,
+      "id": 128,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Training in the Spiral of Hell (特訓!! 螺旋地獄, Tokkun!! Rasen jigoku)",
+      "number": 129,
+      "id": 129,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Inflammable Man (燃えない男, Moenai otoko)",
+      "number": 130,
+      "id": 130,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Roar of Heaven (炸裂! 飛竜昇天破, Sakuretsu! Hiryu shoten ha)",
+      "number": 131,
+      "id": 131,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "The Great Rematch (いくぞ！ 雪辱戦, Iku zo! setsujoku-sen)",
+      "number": 132,
+      "id": 132,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "St. Happosai (仏の八宝斉, Hotoke no Happosai)",
+      "number": 133,
+      "id": 133,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Burn, Happy, Burn (燃えろ！ 八宝斉, Moero! Happosai)",
+      "number": 134,
+      "id": 134,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "The Paper Chase (ああ！ 無情の紙吹雪, Aa! Mujo no kami fubuki)",
+      "number": 135,
+      "id": 135,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Ranma Reborn (乱馬 復活!!, Ranma Fukkatsu!!)",
+      "number": 136,
+      "id": 136,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Who Will Bell the Cat (怪談 猫魔鈴, Kaidan Mao Mo Rin)",
+      "number": 137,
+      "id": 137,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Kitty Takes a Bride (恐怖 化け猫の花嫁, Kyofu bake neko no hanayome)",
+      "number": 138,
+      "id": 138,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Swim Like a Hammer (特訓！ ハンマー・ガール, Tokkun! Hanma garu)",
+      "number": 139,
+      "id": 139,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Courage Under Water (水の中の根性, Mizu no naka no konjo)",
+      "number": 140,
+      "id": 140,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Step Outside (おもてに出やがれ！, Omote ni deyagare!)",
+      "number": 141,
+      "id": 141,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Mark of the Gods (神秘の拳印, Shinpi no kenin)",
+      "number": 142,
+      "id": 142,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Face Off! (鉄壁！ ラクガキ・パワー, Teppeki! rakugaki pawa)",
+      "number": 143,
+      "id": 143,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Mark of the Pig (追いつめられた良牙, Oitsumerareta Ryoga)",
+      "number": 144,
+      "id": 144,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Akane Guesses the Secret! (そして拳印は消えた, Soshite kenin wa kieta)",
+      "number": 145,
+      "id": 145,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Santa's Little Disciples (サンタクロースの弟子, Santa Claus no deshi)",
+      "number": 146,
+      "id": 146,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "When You Wish Upon a Sword (聖刀満願丸, Seito Manganmaru)",
+      "number": 147,
+      "id": 147,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "May I Cut In (野望のデート, Yabo no deto)",
+      "number": 148,
+      "id": 148,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Final Wish (みっつめの願い, Mittsu me no negai)",
+      "number": 149,
+      "id": 149,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The King is Wild (博奕王Ｋ, Bakuchi o Kingu K)",
+      "number": 150,
+      "id": 150,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Never Bet Your Life (明日に賭けるギャンブラー, Ashita ni kakeru gyanbura)",
+      "number": 151,
+      "id": 151,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Put on a Poker Face (特訓！ポーカーフェイス, Tokkun! poka feisu)",
+      "number": 152,
+      "id": 152,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Virtues of Training (逆転ギャンブラー, Gyakuten gyanbura)",
+      "number": 153,
+      "id": 153,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Target Pigtail (狙われたおさげ, Nerawareta osage)",
+      "number": 154,
+      "id": 154,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Let Your Hair Down (ほどけた封印, Hadoketa fuin)",
+      "number": 155,
+      "id": 155,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Whisker's Secret (竜の髭の秘密, Ryu no hige no himitsu)",
+      "number": 156,
+      "id": 156,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Hair Raising (動乱の行方, Doran no yukue)",
+      "number": 157,
+      "id": 157,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Let's Go to the Hot (温泉へ行こう, Onsen e iko)",
+      "number": 158,
+      "id": 158,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Screamin' at the Hot Springs! (絶叫！ 温泉バトル, Zekkyo! onsen batoru)",
+      "number": 159,
+      "id": 159,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Three-Leg Scramble (スクランブル二人三脚, Sukuranburu ni nin sankyaku)",
+      "number": 160,
+      "id": 160,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Hot Bath! (絶叫混浴, Zekkyo kon yoku)",
+      "number": 161,
+      "id": 161,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Ranma Gives Up! (乱馬リタイヤ!, Ranma ritaia)",
+      "number": 162,
+      "id": 162,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Final Choice (最後の選択, Saigo no sentaku)",
+      "number": 163,
+      "id": 163,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "A Goal Too Far (遥かなるゴール, Haruka naru goru)",
+      "number": 164,
+      "id": 164,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Kung Fu Stew (格闘ディナーでございます, Kakuto dina de gozaimasu)",
+      "number": 165,
+      "id": 165,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Bad Manors (怪奇！ お上品館, Kaiki! O johin yakata)",
+      "number": 166,
+      "id": 166,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "La Miserable (飢えたマドモアゼル, Ueta madomoazeru)",
+      "number": 167,
+      "id": 167,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Le Karaté De Foie Gras (必殺！ グルメ・デ・フォワグラ, Hissatsu! Gurume de fowagura)",
+      "number": 168,
+      "id": 168,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "Bathroom Training (バスルームの特訓, Basurumu no tokkun)",
+      "number": 169,
+      "id": 169,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "Who Masters What (必殺技完成？, Hissatsu waza kansei)",
+      "number": 170,
+      "id": 170,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Dinner Wars The Final Course! (決戦!!食卓ウォーズ, Kessen!! shokutaku wozu)",
+      "number": 171,
+      "id": 171,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Do Not Dessert Me (ごちそうさまのあとで, Gochiso-sama no ato de)",
+      "number": 172,
+      "id": 172,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Hand-Me-Down Ranma (乱馬なんかいらない！, Ranma nanka iranai!)",
+      "number": 173,
+      "id": 173,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Terrible Truth! (真実の告白, Shinjitsu no kokuhaku)",
+      "number": 174,
+      "id": 174,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Nabiki's Feelings (おねちゃんの気持ち, Onechan no kimochi)",
+      "number": 175,
+      "id": 175,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "I'm the Victim Here! (ごめんね乱馬, Gomen ne Ranma)",
+      "number": 176,
+      "id": 176,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "I'm Sorry, Akane (ごめんなあかね, Gomen na Akane)",
+      "number": 177,
+      "id": 177,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Maze of Love (愛と復讐の迷路, Ai to fukushu no meiro)",
+      "number": 178,
+      "id": 178,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Curse of the Scroll! (放たれた呪い画, Hanatareta noroi ga)",
+      "number": 179,
+      "id": 179,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Spring Demon (呪泉郷から来た悪魔, Jusenkyō kara kita akuma)",
+      "number": 180,
+      "id": 180,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Demon's Tale (悪魔の正体, Akuma no shōtai)",
+      "number": 181,
+      "id": 181,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Find Akane! (あかねはどこに, Akane ha doko ni)",
+      "number": 182,
+      "id": 182,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "S.W.A.T. (Save Widdle Akane Team) (あかね救助隊, Akane kyūjotai)",
+      "number": 183,
+      "id": 183,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Watery Grave (水の砦, Mizu no toride)",
+      "number": 184,
+      "id": 184,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Geyser Traps (噴き出す罠, Fukidasu wana)",
+      "number": 185,
+      "id": 185,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Boiling Retaliation (反撃の湯, Hangeki no yu)",
+      "number": 186,
+      "id": 186,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Snap of Elastic (必殺！ パンスト 流星脚, Hissatsu! pansuto-ryūsei-kyaku)",
+      "number": 187,
+      "id": 187,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "What's in a Name (君の名は, Kimi no na ha)",
+      "number": 188,
+      "id": 188,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Back to the Freak-ture! (時をかける じじい(前編), Toki wo kakeru jijii (zenpen))",
+      "number": 189,
+      "id": 189,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "And Back and Back and Back (時をかける じじい(後編), Toki o kakeru jijii (kōhen))",
+      "number": 190,
+      "id": 190,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "Melonhead (渚のスイカ男, Nagisa no suika otoko)",
+      "number": 191,
+      "id": 191,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "The Horror of Party Beach (渚の交際鬼, Nagisa no kosai-ki)",
+      "number": 192,
+      "id": 192,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Catcher in the Rind (スイカ畑でつかまえて, Suika batake de tsukamaete)",
+      "number": 193,
+      "id": 193,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Sauce of Ten Years (十年目のソース, Ju-nen-me no sosu)",
+      "number": 194,
+      "id": 194,
+      "pageCount": 17
+    },
+    {
+      "seriesId": 1,
+      "name": "For the Love of Sauce (ソース相愛, Sōsu sōai)",
+      "number": 195,
+      "id": 195,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Truth About the Truth (本当の本当, Hontō no hontō)",
+      "number": 196,
+      "id": 196,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Honeymoon Period (いつわりの夫婦, Itsuwari no fufu)",
+      "number": 197,
+      "id": 197,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Please Hate Me (嫌われたくて, Kirawaretakute)",
+      "number": 198,
+      "id": 198,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Nightmare on Hot Springs Street (温泉街の悪夢, Onsen-gai no akumu)",
+      "number": 199,
+      "id": 199,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Paper Dolls of Love (恋の紙人形, Koi no kami ningyō)",
+      "number": 200,
+      "id": 200,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Pill of Obedience (秘薬 主従丸, Hiyaku shuju-gan)",
+      "number": 201,
+      "id": 201,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Lion's Roar (猛威！獅子咆哮弾, Moi! shishi hokodan)",
+      "number": 202,
+      "id": 202,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Prelude to Defeat (敗北への序曲？, Haiboku e no jokyoku)",
+      "number": 203,
+      "id": 203,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Unlucky Blow (不幸を呼ぶ技, Fuko o yobu waza)",
+      "number": 204,
+      "id": 204,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Emotional Impact (気分次第の必殺技, Kibun shidai no hissatsu waza)",
+      "number": 205,
+      "id": 205,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Lion Versus Tiger! (決闘!!獅子対猛虎, Ketto!! shishi tai moko)",
+      "number": 206,
+      "id": 206,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "The Weight of Victory (勝利の獅子重力, Shori no shishi juryoku)",
+      "number": 207,
+      "id": 207,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "New Year's Curse (除夜の呪い, Joya no noroi)",
+      "number": 208,
+      "id": 208,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Ring Proposal (108回目のプロポーズ, 108-kai-me no puropozu)",
+      "number": 209,
+      "id": 209,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Plum and the Prune (老人と梅, Rojin to ume)",
+      "number": 210,
+      "id": 210,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Sibling Warfare (私闘！九能兄弟, Shito! Kuno kyodai)",
+      "number": 211,
+      "id": 211,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Scandal Breaks! (スキャンダルの嵐, Sukyandaru no arashi)",
+      "number": 212,
+      "id": 212,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "When Daddy Was Strong (父よ あなたは強かった, Chichi yo anata wa tsuyokatta)",
+      "number": 213,
+      "id": 213,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "Time to Leave the Nest (巣立ちの時, Sudachi no toki)",
+      "number": 214,
+      "id": 214,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Cradle From Hell (地獄のゆりかご, Jigoku no yurikago)",
+      "number": 215,
+      "id": 215,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Mark of the Cherry Blossom (桜印の男, Sakura-jirushi no hito [otoko])",
+      "number": 216,
+      "id": 216,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Akane's Feelings (あかねの気モチ, Akane no kimochi)",
+      "number": 217,
+      "id": 217,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Storm of Petals (花の嵐, Hana no arashi)",
+      "number": 218,
+      "id": 218,
+      "pageCount": 17
+    },
+    {
+      "seriesId": 1,
+      "name": "L! O! V! E! (HATUKOIチアガール, HATUKOI chiagaru)",
+      "number": 219,
+      "id": 219,
+      "pageCount": 17
+    },
+    {
+      "seriesId": 1,
+      "name": "Cheerleading for Love (愛の応援勝負, Ai no oen shobu)",
+      "number": 220,
+      "id": 220,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Win One for the Lover (愛は勝つ!, Ai wa katsu!)",
+      "number": 221,
+      "id": 221,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "Equals in Love (互角の愛, Gokaku no Ai)",
+      "number": 222,
+      "id": 222,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Love vs. Love (愛の激突!!, Ai no Gekitotsu!!)",
+      "number": 223,
+      "id": 223,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "Love Always Wins (それでも愛は勝つ!!, Sore de mo ai wa katsu!!)",
+      "number": 224,
+      "id": 224,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Ranma Meets His Mother! (乱馬ミーツ・マザー!, Ranma Mitsu Maza!)",
+      "number": 225,
+      "id": 225,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "A Man's Vow (男の誓い, Otoko no chikai)",
+      "number": 226,
+      "id": 226,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Risky Reunion (決死の団らん, Kesshi no danran)",
+      "number": 227,
+      "id": 227,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Even If It's Just a Glance (ひと目だけでも, Hitome dake demo)",
+      "number": 228,
+      "id": 228,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Mother and Son...Together!! (母子水いらず!!, Oyaku [boshi] mizu irazu!!)",
+      "number": 229,
+      "id": 229,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Sudden Hate!! (突然大嫌い!!, Totsuzen dai-kirai!!)",
+      "number": 230,
+      "id": 230,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Say You Love Me!! (好きだと言え!!, Suki da to ie!!)",
+      "number": 231,
+      "id": 231,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Love's Counterstrike (愛の逆流, Ai no gyakuryu)",
+      "number": 232,
+      "id": 232,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Who Loves Who (告白の行方, Kokuhaku no yukue)",
+      "number": 233,
+      "id": 233,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Phantom Lingerie (怪異・残されぱんつ, Kaii nokosare pantsu)",
+      "number": 234,
+      "id": 234,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "Pantyhose Taro Returns! (パンスト太郎の逆襲, Pansuto Taro no gyakushu)",
+      "number": 235,
+      "id": 235,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "The Black Secret (黒い秘密兵器, Kuroi himitsu heiki)",
+      "number": 236,
+      "id": 236,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "The Hot Water Fortress (お湯の砦, O-yu no toride)",
+      "number": 237,
+      "id": 237,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Tentacular Spectacular (決戦！タコ足封じ!!, Kessen! tako ashi fuji)",
+      "number": 238,
+      "id": 238,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Stomperella (渚の踏んデレラ, Nagisa no Fu-nderera)",
+      "number": 239,
+      "id": 239,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Fairy Tale Ending (シンデレラのお返し, Shinderera no ongaeshi)",
+      "number": 240,
+      "id": 240,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Violence of Cooking (暴力料理教室, Boryoku ryori kyoshitsu)",
+      "number": 241,
+      "id": 241,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Carp of Misery (悲哀・コイの発生, Hiai koi no hassei)",
+      "number": 242,
+      "id": 242,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Carpy Deum (悲惨・コイの成長, Hisan koi no seicho)",
+      "number": 243,
+      "id": 243,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Quit Carping (悲痛・コイの暴走, Hitsu koi no boso)",
+      "number": 244,
+      "id": 244,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "One-Punch (ファイト一発, Faito Ippatsu)",
+      "number": 245,
+      "id": 245,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Guest at the Cat Café (猫飯店の客, Neko Hanten no kyaku)",
+      "number": 246,
+      "id": 246,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Animal Kingdom (野生の王国, Yasei no okoku)",
+      "number": 247,
+      "id": 247,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Lost Treasure (失われた秘密, Ushinawareta hiho)",
+      "number": 248,
+      "id": 248,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Battle of the Hot Springs Women! (露天風呂 女の戦い!!, Rotenburo onna no tatakai!!)",
+      "number": 249,
+      "id": 249,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Race to Treasure Mountain (追跡 宝来山, Tsuiseki Horai-san)",
+      "number": 250,
+      "id": 250,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Death on Treasure Mountain (宝来山に死す, Horai-san ni shisu)",
+      "number": 251,
+      "id": 251,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Tragedy of the Pail (止水桶の悲劇, Chii-sui-ton no higeki)",
+      "number": 252,
+      "id": 252,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Waterfall of Secret Treasure Revealed! (出現!!秘宝の滝, Shutsugen!! hiho no taki)",
+      "number": 253,
+      "id": 253,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "An Ever-Elusive Treasure (遠い開水壺, Toi kai-sui-fu)",
+      "number": 254,
+      "id": 254,
+      "pageCount": 14
+    },
+    {
+      "seriesId": 1,
+      "name": "The Confession of Rage! (ハーブ 怒りの激白, Habu ikari no gekihaku)",
+      "number": 255,
+      "id": 255,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Rise Up, Ranma! (立ちあがれ乱馬！, Tachiagare Ranma!)",
+      "number": 256,
+      "id": 256,
+      "pageCount": 17
+    },
+    {
+      "seriesId": 1,
+      "name": "A Man Again! (乱馬、男に戻る!!, Ranma, otoko ni modoru!!)",
+      "number": 257,
+      "id": 257,
+      "pageCount": 21
+    },
+    {
+      "seriesId": 1,
+      "name": "Welcome Home, Ranma! (おかえり乱馬, O-kaeri Ranma)",
+      "number": 258,
+      "id": 258,
+      "pageCount": 14
+    },
+    {
+      "seriesId": 1,
+      "name": "The Ultimate Teacher! (必殺新任教師!!, Hissatsu shinnin kyoshi!!)",
+      "number": 259,
+      "id": 259,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Eight Mysterious Treasures (謎の八宝五円殺, Nazo no happo-goen-satsu)",
+      "number": 260,
+      "id": 260,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The World's Most Powerful Woman (史上最強の女, Shijo saikyo no onna)",
+      "number": 261,
+      "id": 261,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Go for the Pressure Points! (急いでツボを押せ！, Isoide tsubo o ose!)",
+      "number": 262,
+      "id": 262,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Formation from Hell (地獄のフォーメーション, Jigoku no fomeshon)",
+      "number": 263,
+      "id": 263,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Eight Treasures Change Return (八宝つり銭返し, Happo-tsurisen-gaeshi)",
+      "number": 264,
+      "id": 264,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Ultimate Health Regimen (究極の健康法！, Kyukyoku no kenko-ho)",
+      "number": 265,
+      "id": 265,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Akane's Journey (あかねの旅立ち, Akane no tabidachi)",
+      "number": 266,
+      "id": 266,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Recovered Memories (よみがえる記憶, Yomigaeru kioku)",
+      "number": 267,
+      "id": 267,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Secret of the Forest (不思議の森の秘密, Fushigi no mori no himitsu)",
+      "number": 268,
+      "id": 268,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Water of Life (生命の水, Inochi (seimei) no mizu)",
+      "number": 269,
+      "id": 269,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "In the Shade of the Forest (森の木陰で, Mori no kokage de)",
+      "number": 270,
+      "id": 270,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "See Ya, Akane (あばよ、あかね, Abayo, Akane)",
+      "number": 271,
+      "id": 271,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The King of Beasts Emerges! (珍獣王出現!!, Chinju o shutsugen!!)",
+      "number": 272,
+      "id": 272,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "The Fury of the Orochi! (オロチ怒る!!, Orochi Ikaru!!)",
+      "number": 273,
+      "id": 273,
+      "pageCount": 14
+    },
+    {
+      "seriesId": 1,
+      "name": "The Eighth Head (八つめの頭, Yattsu-me no atama)",
+      "number": 274,
+      "id": 274,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "Take Care of Her (あかねを頼む, Akane o tanomu)",
+      "number": 275,
+      "id": 275,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Blow Your Horn! (角笛を吹け!!, Tsunobue o fuke!!)",
+      "number": 276,
+      "id": 276,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "Let's Go Home (一緒に帰ろう, Issho ni kaero)",
+      "number": 277,
+      "id": 277,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "These Words I Send to You (贈る言葉, Okuru kotoba)",
+      "number": 278,
+      "id": 278,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "Danger Home Visit Ahead! (必殺！家庭訪問, Hissatsu! katei homon)",
+      "number": 279,
+      "id": 279,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "Target Soun! (狙われた早雲, Nerawareta Soun)",
+      "number": 280,
+      "id": 280,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Danger Flight Path of Love! (必殺！愛の逃避行, Hissatsu! ai no tohi ko)",
+      "number": 281,
+      "id": 281,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Unbeatable Lens (無敵の無敵鏡, Muteki no muteki-kyo)",
+      "number": 282,
+      "id": 282,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Tearful Apology!! (泣いてあやまれ!!, Naite ayamare!!)",
+      "number": 283,
+      "id": 283,
+      "pageCount": 14
+    },
+    {
+      "seriesId": 1,
+      "name": "The Lowliest Jerk (最低の男, Saitei no otoko)",
+      "number": 284,
+      "id": 284,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Demon Dog of the Sea (海の魔犬, Umi no maken)",
+      "number": 285,
+      "id": 285,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Compliment Me! (私をほめて！, Watashi o homete!)",
+      "number": 286,
+      "id": 286,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Curséd Cave of Broken Loves (呪いの破恋洞, Noroi no Haren-do)",
+      "number": 287,
+      "id": 287,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Exit of Misery (別れの出口, Wakare no deguchi)",
+      "number": 288,
+      "id": 288,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Give Back the Tests!! (テストを返せ!!, Tesuto o kaese!!)",
+      "number": 289,
+      "id": 289,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Mother, I Am Ranma (母さん、おれが乱馬です, Kasan, ore ga Ranma desu)",
+      "number": 290,
+      "id": 290,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Thousand-Mountain vs. Thousand-Sea (海千拳と山千拳, Umi-senken to yama-senken)",
+      "number": 291,
+      "id": 291,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "Ranma vs. Ranma (乱馬対乱馬, Ranma tai Ranma)",
+      "number": 292,
+      "id": 292,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Intensive Training!! (特訓!! 海千拳, Tokkun!! umisen-ken)",
+      "number": 293,
+      "id": 293,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "A Letter From Mother (母からの手紙, Haha kara no tegami)",
+      "number": 294,
+      "id": 294,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Quick as Lightning—The Thousand Seas! (電光石火 海千拳！, Denko sekka umisen-ken)",
+      "number": 295,
+      "id": 295,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "House of the Sea, House of the Mountain (海の家、山の家, Umi no ie, yama no ie)",
+      "number": 296,
+      "id": 296,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Thousand-Mountain Tragedy (山千拳の悲劇, Yamasen-ken no higeki)",
+      "number": 297,
+      "id": 297,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Invisible Strike (見えない秘拳, Mienai hi-ken)",
+      "number": 298,
+      "id": 298,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Truth of the Secret Scrolls (秘伝書の真実, Hiden-sho no shinjitsu)",
+      "number": 299,
+      "id": 299,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Ranma's Tears (乱馬の涙, Ranma no namida)",
+      "number": 300,
+      "id": 300,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "The Terror of the Phoenix Sword! (恐怖の鳳凰剣, Kyofu no hoo-ken)",
+      "number": 301,
+      "id": 301,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "The Immortal Phoenix Sword (不滅の鳳凰剣, Fumetsu no hoo-ken)",
+      "number": 302,
+      "id": 302,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Seeds of Tragedy (悲劇の種子, Higeki no tane (shushi))",
+      "number": 303,
+      "id": 303,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Motherhood Flower, Please (母性花どうぞ, Bosei kado zo)",
+      "number": 304,
+      "id": 304,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Shampoo—Captive! (捕われのシャンプー, Toraware no Shampoo)",
+      "number": 305,
+      "id": 305,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Forest of Poisonous Plants (毒草の森, Dokuso no mori)",
+      "number": 306,
+      "id": 306,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Ultimate Medicine (最後の秘薬, Saigo no hiyaku)",
+      "number": 307,
+      "id": 307,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Evil and the Bean (邪悪と豆の字, Jaaku to mame no ji)",
+      "number": 308,
+      "id": 308,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The King of Poverty's Challenge (火車王の挑戦, Kashao no chosen)",
+      "number": 309,
+      "id": 309,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The King of Debt vs. the Queen of Debt (借金王VS借金女王, Shakkin o VS. shakkin joo)",
+      "number": 310,
+      "id": 310,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "For the Love of Ten Yen (地獄の10円勝負！, Jigoku no 10-en shobu!)",
+      "number": 311,
+      "id": 311,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Spring Comes To Ryoga (良牙の春, Ryoga no haru)",
+      "number": 312,
+      "id": 312,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "LOVE the Pig! (ブタが好き！, Buta ga suki!)",
+      "number": 313,
+      "id": 313,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Perfect Couple (理想のカップル, Riso no kappuru)",
+      "number": 314,
+      "id": 314,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Experimental Herb・Towering Hair (試薬・努髪天, Shiyaku・Dohatsuten)",
+      "number": 315,
+      "id": 315,
+      "pageCount": 17
+    },
+    {
+      "seriesId": 1,
+      "name": "Infinite Battle Ki (無限の闘気, Mugen no toki)",
+      "number": 316,
+      "id": 316,
+      "pageCount": 17
+    },
+    {
+      "seriesId": 1,
+      "name": "Let's Study! (勉強しよう！, Benkyo o shiyo!)",
+      "number": 317,
+      "id": 317,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Tragic Legend of the Black Cherry Tree (男桜悲伝, Otoko-zakura hiden)",
+      "number": 318,
+      "id": 318,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Ranma Catches a Cold (乱馬風邪をひく, Ranma kaze o hiku)",
+      "number": 319,
+      "id": 319,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "A Hot Reunion! (熱い再会!, Atsui saikai!)",
+      "number": 320,
+      "id": 320,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Ranma Till Morning (朝まで乱馬, Asa made Ranma)",
+      "number": 321,
+      "id": 321,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Cursed Spatula (呪いのヘラ, Noroi no hera)",
+      "number": 322,
+      "id": 322,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "Happosai's New Disciple (八宝斎の新弟子, Happosai no shindeshi)",
+      "number": 323,
+      "id": 323,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "Secret Treasure・Brocade Butterfly (秘宝・錦の蝶, Hiho  nishiki no cho)",
+      "number": 324,
+      "id": 324,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Special Move・Wild Butterfly Dance! (奥義・胡蝶乱舞, Ogi  kocho ranbu)",
+      "number": 325,
+      "id": 325,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Lucky Day...My Family's Away! (大安吉日・家族は留守！, Taian kichijitsu  kazoku wa rusu!)",
+      "number": 326,
+      "id": 326,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Alone With Them Both (あかねも あかりも, Akane mo Akari mo)",
+      "number": 327,
+      "id": 327,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Umbrella of Love (伝説の相合ガサ, Densetsu no aiaigasa)",
+      "number": 328,
+      "id": 328,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Get Ready for Swim Class! (激突!! 水泳教室, Gekitotsu!! suiei kyoshitsu)",
+      "number": 329,
+      "id": 329,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Cold Summer Noodles (サマー・ジャンボ・冷し中華, Sama  janbo  hiyashi chuka)",
+      "number": 330,
+      "id": 330,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Doll of Vengenance (怪談・仕返し人形, Kaidan  shikaeshi ningyo)",
+      "number": 331,
+      "id": 331,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Doll's Trap (人形の罠, Ningyo no wana)",
+      "number": 332,
+      "id": 332,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Aloha School (アロハ漂流教室, Aroha hyoryu kyoshitsu)",
+      "number": 333,
+      "id": 333,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Glowing Girl (光る少女, Hikaru shojo)",
+      "number": 334,
+      "id": 334,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Other Rouge!! (ルージュ変身!!, Ruju henshin!!)",
+      "number": 335,
+      "id": 335,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Source of Power Owner's Manual (力の源使用法, Chikara no minamoto shiyoho)",
+      "number": 336,
+      "id": 336,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "A Beautiful Friendship (炎のツープラトン, Honoo no tsupuraton)",
+      "number": 337,
+      "id": 337,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Beware! The Blows of Strength (秘拳！徒手孝行乱打, Hiken! toshu koko randa)",
+      "number": 338,
+      "id": 338,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The White Lily (白ユリの飛鳥, Shira-yuri no Asuka)",
+      "number": 339,
+      "id": 339,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Battle of the Boyfriends! (彼氏で白黒つけましょう！, Kareshi de shirokuro tsukemasho!)",
+      "number": 340,
+      "id": 340,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Chosen One (選ばれた武道家, Erabareta budo-ka)",
+      "number": 341,
+      "id": 341,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Ranma's Plot (乱馬の陰謀, Ranma no inbo)",
+      "number": 342,
+      "id": 342,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The First Time I Said What I Felt (初めて本音を言ったのに…, Hajimete honne o itta noni...)",
+      "number": 343,
+      "id": 343,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Great Divide (二人の距離, Futari no kyori)",
+      "number": 344,
+      "id": 344,
+      "pageCount": 20
+    },
+    {
+      "seriesId": 1,
+      "name": "Love Medicine (愛の特効薬, Ai no tokkoyaku)",
+      "number": 345,
+      "id": 345,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "Kasumi Gets Mad (かすみさんが怒った, Kasumi-san ga okotta)",
+      "number": 346,
+      "id": 346,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Mushroom of Time (年の数だけ, Toshi no kazu dake)",
+      "number": 347,
+      "id": 347,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "To the Mushroom Forest! (キノコの森に行こう！, Kinoko no mori ni ikô!)",
+      "number": 348,
+      "id": 348,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "16cm Short (遠い16cm, Toi 16 cm)",
+      "number": 349,
+      "id": 349,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Two Shampoos (二人のシャンプー, Futari no Shampoo)",
+      "number": 350,
+      "id": 350,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Payback's a Saint (今宵も恩返し, Koyoi mo ongaeshi)",
+      "number": 351,
+      "id": 351,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Drawn and Quartered Horse (迷惑!!暴れ絵馬, Meiwaku!! abare ema)",
+      "number": 352,
+      "id": 352,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Saotome Family (Onsen) Vacation (早乙女一家温泉旅行, Saotome-ikka onsen ryoko)",
+      "number": 353,
+      "id": 353,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Stop that Octopus! (タコが狙ってる, Tako ga neratteru)",
+      "number": 354,
+      "id": 354,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Masked Death Match! (激闘！お面デスマッチ, Gekito! o-men desumatchi)",
+      "number": 355,
+      "id": 355,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Shotgun Beans!! (節分!!鉄砲豆, Setsubun!! teppo mane)",
+      "number": 356,
+      "id": 356,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Little Heart (小さなハート, Chiisa na hato)",
+      "number": 357,
+      "id": 357,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Whack the Principal! (校長を殴ろう！, Kocho o naguro!)",
+      "number": 358,
+      "id": 358,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Bow Down! (土下座させまーす！, Dogeza sasema–su!)",
+      "number": 359,
+      "id": 359,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Busted! (バストバトル！, Basuto batoru!)",
+      "number": 360,
+      "id": 360,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Punishment of Perv-Boy! (成敗！変態少年, Seibai! hentai shonen)",
+      "number": 361,
+      "id": 361,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Mama, Papa and Tata (ちちと母, Chichi to haha)",
+      "number": 362,
+      "id": 362,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Looking His Best (晴れ姿 ご対面, Hare sugata go-taimen)",
+      "number": 363,
+      "id": 363,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "See Me for What I Am (本当の俺を見てください, Honto no ore o mite kudasai)",
+      "number": 364,
+      "id": 364,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Incense of Spring Sleep (悪夢！春眠香, Akumu! shunmin ko)",
+      "number": 365,
+      "id": 365,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Three-Year Smile of Death (微笑み三年殺し, Hohoemi sannen-goroshi)",
+      "number": 366,
+      "id": 366,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "The Two Ranmas (二人の乱馬, Futari no Ranma)",
+      "number": 367,
+      "id": 367,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "An Isosceles Love Triangle (二等辺三角関係, Nitohen sankaku kankei)",
+      "number": 368,
+      "id": 368,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Get That Compact!! (コンパクトを奪え!!, Konpakuto o ubae)",
+      "number": 369,
+      "id": 369,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Ultimate Couple (究極のカップル, Kyūkyoku no kappuru)",
+      "number": 370,
+      "id": 370,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Playing House (二人でお留守番, Futari de o-rusuban)",
+      "number": 371,
+      "id": 371,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Sisters of Terror! (戦慄クノ一シスターズ, Senritsu! kunoichi shisutāzu)",
+      "number": 372,
+      "id": 372,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Saddest Kunoichi (不幸のくノ一, Fuko no kunoichi)",
+      "number": 373,
+      "id": 373,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Runaway Ninja! (抜け忍 小夏, Nukenin Konatsu)",
+      "number": 374,
+      "id": 374,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Ranma vs. Konatsu (乱馬vs小夏, Ranma VS Konatsu)",
+      "number": 375,
+      "id": 375,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Konatsu's Happiness (小夏のしあわせ, Konatsu no shiawase)",
+      "number": 376,
+      "id": 376,
+      "pageCount": 17
+    },
+    {
+      "seriesId": 1,
+      "name": "Bamboo Leaves of Love (縁結びの笹, Enmusubi no sasa)",
+      "number": 377,
+      "id": 377,
+      "pageCount": 17
+    },
+    {
+      "seriesId": 1,
+      "name": "The Conspiracy of Jellyfish Beach (海月浜の陰謀, Kurage hama no inbo)",
+      "number": 378,
+      "id": 378,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Coming Soon (カミング・スーン, Kamingu sūn)",
+      "number": 379,
+      "id": 379,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "A Visit to the Family Grave (早乙女家墓参り, Saotome ke hakamairi)",
+      "number": 380,
+      "id": 380,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Saotome Family Reunion (早乙女夫婦再会, Saotome fufu saikai)",
+      "number": 381,
+      "id": 381,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "A Mother's Doubts (母の疑惑, Haha no giwaku)",
+      "number": 382,
+      "id": 382,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Ranma's Seppuku (乱馬切腹, Ranma seppuku)",
+      "number": 383,
+      "id": 383,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Reunion and Farewell (再会と別れ, Saikai to wakare)",
+      "number": 384,
+      "id": 384,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "Goodbye Ranma! (乱馬、天道家を去る, Ranma, Tendo-ke o saru)",
+      "number": 385,
+      "id": 385,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "A Package from Mother (母の贈り, Haha no okuri mono)",
+      "number": 386,
+      "id": 386,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Bet on the Ring!! (リングにかける!!, Ringu ni kakeru!!)",
+      "number": 387,
+      "id": 387,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Sales Force (力ずく繁盛記, Chikarazuku hanjo ki)",
+      "number": 388,
+      "id": 388,
+      "pageCount": 18
+    },
+    {
+      "seriesId": 1,
+      "name": "Messenger From Jusenkyo (呪泉郷からの 使者, Jusenkyō kara no shisha)",
+      "number": 389,
+      "id": 389,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "Battle for the Map! (呪泉郷地図 攻防戦, Jusenkyō chizu kōbōsen)",
+      "number": 390,
+      "id": 390,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Egg Shampoo (シャンプーの卵, Shanpū no tamago)",
+      "number": 391,
+      "id": 391,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "China Bound!! (乱馬 中国へ!!, Ranma Chūgoku he!!)",
+      "number": 392,
+      "id": 392,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Prince of Ho'o Peak (鳳凰山の王子様, Hōō-san no ōji-sama)",
+      "number": 393,
+      "id": 393,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Labyrinth Beneath (鳳凰山地下迷路, Hōō-san chika meiro)",
+      "number": 394,
+      "id": 394,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Dogfight above the Peak (鳳凰山空中戦, Hōō-san kuchusen)",
+      "number": 395,
+      "id": 395,
+      "pageCount": 19
+    },
+    {
+      "seriesId": 1,
+      "name": "Akane in the Spring (あかね 呪泉郷へ, Akane Jusenkyō he)",
+      "number": 396,
+      "id": 396,
+      "pageCount": 19
+    },
+    {
+      "seriesId": 1,
+      "name": "Bad News at Jusenkyo (呪泉郷の変, Jusenkyō no ihen)",
+      "number": 397,
+      "id": 397,
+      "pageCount": 22
+    },
+    {
+      "seriesId": 1,
+      "name": "Akane Breaks Out! (あかね逃亡, Akane tōbō)",
+      "number": 398,
+      "id": 398,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Phoenix and the Dragon (鳳凰と竜, Hōō to Ryuu)",
+      "number": 399,
+      "id": 399,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "The Saffron Egg (サフラン変態, Safuran Hentai)",
+      "number": 400,
+      "id": 400,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "The Spout of the Dragon (竜の蛇口, Ryū no Jaguchi)",
+      "number": 401,
+      "id": 401,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "A Last, Sweet Memory (最後の思い出, Saigo no Omoide)",
+      "number": 402,
+      "id": 402,
+      "pageCount": 16
+    },
+    {
+      "seriesId": 1,
+      "name": "Saffron Reborn (サフラン誕生, Safuran Tanjō)",
+      "number": 403,
+      "id": 403,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "Ranma Battles Saffron!! (激突!! 乱馬vsサフラン, Gekitotsu!! Ranma vs Safuran)",
+      "number": 404,
+      "id": 404,
+      "pageCount": 15
+    },
+    {
+      "seriesId": 1,
+      "name": "The Power of the Gekkaja (月渦蛇の力, Gekkaja no Chikara)",
+      "number": 405,
+      "id": 405,
+      "pageCount": 24
+    },
+    {
+      "seriesId": 1,
+      "name": "Akane's Smile (あかねの微笑み, Akane no Hohoemi)",
+      "number": 406,
+      "id": 406,
+      "pageCount": 23
+    },
+    {
+      "seriesId": 1,
+      "name": "Next The Final Chapter (最終話 らんまとあかね, Saishōwa Ranma to Akane, The Final Chapter Ranma and Akane)",
+      "number": 407,
+      "id": 407,
+      "pageCount": 32
+    }
+  ],
+  "notes": [],
+  "tags": []
+}
