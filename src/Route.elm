@@ -1,15 +1,18 @@
-module Route exposing (Route(..), parseUrl, pushUrl)
+module Route exposing (Route(..), parseUrl, pushUrl, urlForRoute)
 
 import Browser.Navigation as Nav
-import Data.ApiId exposing (ApiId)
+import Data.ApiId exposing (ApiId, formatId, idParser)
 import Url exposing (Url)
+import Url.Builder
 import Url.Parser exposing (..)
 
 
 type Route
     = NotFound
-    | Chapters
-    | Chapter ApiId
+    | AllSeries
+    | Series ApiId
+    | Chapter ApiId ApiId
+    | Reader ApiId ApiId Int
 
 
 parseUrl : Url -> Route
@@ -25,25 +28,46 @@ parseUrl url =
 matchRoute : Parser (Route -> a) a
 matchRoute =
     oneOf
-        [ map Chapters top
-        , map Chapters (s "chapters")
-        , map Chapter (s "chapters" </> Data.ApiId.idParser)
+        [ map AllSeries top
+        , map Series (s "series" </> idParser)
+        , map Chapter (s "series" </> idParser </> s "chapters" </> idParser)
+        , map Reader (s "series" </> idParser </> s "chapters" </> idParser </> s "page" </> int)
         ]
 
 
 pushUrl : Route -> Nav.Key -> Cmd msg
 pushUrl route navKey =
-    routeToString route |> Nav.pushUrl navKey
+    urlForRoute route |> Nav.pushUrl navKey
 
 
-routeToString : Route -> String
-routeToString route =
+urlForRoute : Route -> String
+urlForRoute route =
     case route of
         NotFound ->
             "/not-found"
 
-        Chapters ->
-            "/chapters"
+        AllSeries ->
+            "/"
 
-        Chapter id ->
-            "/chapters/" ++ Data.ApiId.formatId id
+        Series seriesId ->
+            "/series/" ++ Data.ApiId.formatId seriesId
+
+        Chapter seriesId chapterId ->
+            Url.Builder.absolute
+                [ "series"
+                , formatId seriesId
+                , "chapters"
+                , formatId chapterId
+                ]
+                []
+
+        Reader seriesId chapterId pageNumber ->
+            Url.Builder.absolute
+                [ "series"
+                , formatId seriesId
+                , "chapters"
+                , formatId chapterId
+                , "page"
+                , String.fromInt pageNumber
+                ]
+                []

@@ -1,4 +1,4 @@
-module Page.Chapters exposing (..)
+module Page.Series exposing (..)
 
 import Browser.Navigation as Nav
 import Data.ApiId exposing (ApiId)
@@ -21,13 +21,13 @@ type Msg
     | ChaptersReceived (WebData (List Chapter))
 
 
-init : Nav.Key -> ( Model, Cmd Msg )
-init navKey =
+init : Nav.Key -> ApiId -> ( Model, Cmd Msg )
+init navKey seriesId =
     ( { navKey = navKey
       , series = RemoteData.Loading
       , chapters = RemoteData.NotAsked
       }
-    , Request.getSeries SeriesReceived
+    , Request.getSeries seriesId SeriesReceived
     )
 
 

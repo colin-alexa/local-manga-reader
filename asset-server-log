@@ -1,0 +1,56 @@
+Starting up http-server, serving D:\Library\Comics\Manga\Ranma\chapters
+
+http-server version: 14.1.1
+
+http-server settings: 
+CORS: true
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://192.168.1.12:8080
+  http://192.168.56.1:8080
+  http://127.0.0.1:8080
+Hit CTRL-C to stop the server
+
+[2025-06-19T16:52:13.875Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/1.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+(node:22680) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-06-19T16:52:13.879Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/2.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.881Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/3.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.882Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/4.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.882Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/5.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.883Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/6.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.890Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/7.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.891Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/8.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.893Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/9.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.894Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/10.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.895Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/11.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.897Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/12.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.901Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/13.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.901Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/14.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.903Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/15.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.904Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/16.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.905Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/17.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.906Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/18.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.910Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/19.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.911Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/20.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.913Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/21.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.913Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/22.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.914Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/23.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.916Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/24.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.919Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/25.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.922Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/26.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.923Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/27.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.925Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/28.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.927Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/29.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.928Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/30.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.930Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/31.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.931Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/32.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.933Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/33.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+[2025-06-19T16:52:13.935Z]  "GET /1%20-%20Here's%20Ranma%20(%E3%82%89%E3%82%93%E3%81%BE%E3%81%8C%E6%9D%A5%E3%81%9F,%20Ranma%20ga%20Kita)/34.jpeg" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"

@@ -5,9 +5,12 @@ module Main exposing (main)
 import Browser exposing (UrlRequest)
 import Browser.Navigation as Nav
 import Html
+import Page.AllSeries as AllSeries
+import Page.AllSeries.View as AllSeriesView
 import Page.Chapter as Chapter
-import Page.Chapters as Chapters
-import Page.Chapters.View as ChaptersView
+import Page.Chapter.View as ChapterView
+import Page.Series as Series
+import Page.Series.View as SeriesView
 import Platform.Cmd as Cmd
 import Route exposing (Route)
 import Url exposing (Url)
@@ -34,14 +37,17 @@ type alias Application =
 
 type Page
     = NotFoundPage
-    | ChaptersPage Chapters.Model
+    | AllSeriesPage AllSeries.Model
+    | SeriesPage Series.Model
     | ChapterPage Chapter.Model
+    | ReaderPage
 
 
 type ApplicationMsg
     = LinkClicked UrlRequest
     | UrlChanged Url
-    | ChaptersPageMsg Chapters.Msg
+    | AllSeriesPageMsg AllSeries.Msg
+    | SeriesPageMsg Series.Msg
     | ChapterPageMsg Chapter.Msg
 
 
@@ -60,38 +66,57 @@ initApplication _ url navKey =
 initCurrentPage : ( Application, Cmd ApplicationMsg ) -> ( Application, Cmd ApplicationMsg )
 initCurrentPage ( app, appCommands ) =
     let
-        ( currentPage, pageCommands ) =
+        ( currentPage, pageInitCommands ) =
             case app.route of
                 Route.NotFound ->
                     ( NotFoundPage, Cmd.none )
 
-                Route.Chapters ->
+                Route.AllSeries ->
                     let
-                        ( pageModel, chaptersPageCommands ) =
-                            Chapters.init app.navKey
+                        ( pageModel, pageCommands ) =
+                            AllSeries.init app.navKey
                     in
-                    ( ChaptersPage pageModel, Cmd.map ChaptersPageMsg chaptersPageCommands )
+                    ( AllSeriesPage pageModel, Cmd.map AllSeriesPageMsg pageCommands )
 
-                Route.Chapter id ->
+                Route.Series id ->
                     let
-                        ( pageModel, chapterPageCommands ) =
-                            Chapter.init app.navKey id
+                        ( pageModel, pageCommands ) =
+                            Series.init app.navKey id
                     in
-                    ( ChapterPage pageModel, Cmd.map ChapterPageMsg chapterPageCommands )
+                    ( SeriesPage pageModel, Cmd.map SeriesPageMsg pageCommands )
+
+                Route.Chapter seriesId chapterId ->
+                    let
+                        ( pageModel, pageCommands ) =
+                            Chapter.init app.navKey seriesId chapterId
+                    in
+                    ( ChapterPage pageModel, Cmd.map ChapterPageMsg pageCommands )
+
+                Route.Reader seriesId chapterId pageNumber ->
+                    ( ReaderPage, Cmd.none )
     in
-    ( { app | page = currentPage }, Cmd.batch [ appCommands, pageCommands ] )
+    ( { app | page = currentPage }, Cmd.batch [ appCommands, pageInitCommands ] )
 
 
 updateApplication : ApplicationMsg -> Application -> ( Application, Cmd ApplicationMsg )
 updateApplication msg app =
     case ( msg, app.page ) of
-        ( ChaptersPageMsg pageMsg, ChaptersPage model ) ->
+        ( SeriesPageMsg pageMsg, SeriesPage model ) ->
             let
                 ( newModel, newCommand ) =
-                    Chapters.update pageMsg model
+                    Series.update pageMsg model
             in
-            ( { app | page = ChaptersPage newModel }
-            , Cmd.map ChaptersPageMsg newCommand
+            ( { app | page = SeriesPage newModel }
+            , Cmd.map SeriesPageMsg newCommand
+            )
+
+        ( ChapterPageMsg pageMsg, ChapterPage model ) ->
+            let
+                ( newModel, newCommand ) =
+                    Chapter.update pageMsg model
+            in
+            ( { app | page = ChapterPage newModel }
+            , Cmd.map ChapterPageMsg newCommand
             )
 
         ( LinkClicked req, _ ) ->
@@ -115,11 +140,17 @@ viewApplication app =
         NotFoundPage ->
             notFoundView
 
-        ChaptersPage model ->
-            Html.map ChaptersPageMsg <| ChaptersView.view model
+        SeriesPage model ->
+            Html.map SeriesPageMsg <| SeriesView.view model
 
         ChapterPage model ->
-            Html.map ChapterPageMsg <| Chapter.view model
+            Html.map ChapterPageMsg <| ChapterView.view model
+
+        AllSeriesPage model ->
+            Html.map AllSeriesPageMsg <| AllSeriesView.view model
+
+        _ ->
+            Html.text "not implemented...yet ;)"
 
 
 notFoundView : Html.Html ApplicationMsg

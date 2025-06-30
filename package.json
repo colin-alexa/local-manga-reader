@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "ranma-reader",
+  "version": "0.0.1",
+  "description": "Elm language app for viewing locally-stored manga in the browser",
+  "scripts": {
+    "start-api": "json-server ./db.json --port=5019 --watch > api-log 2>&1",
+    "start-assets": "http-server D:\\Library\\Comics\\Manga\\Ranma\\chapters --cors --port=8080 > asset-server-log 2>&1",
+    "start": "elm-live ./src/Main.elm --pushstate --start-page=index.html --dir=public -- --output=public/main.js",
+    "test": "elm test"
+  },
+  "dependencies": {
+    "http-server": "~14.1.1",
+    "json-server": "0.17.4"
+  },
+  "author": "Colin-Alexa Robinson"
+}
