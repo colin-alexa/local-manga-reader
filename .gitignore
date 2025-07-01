@@ -4,5 +4,7 @@ elm-stuff
 node_modules
 dist
 main.js
+db.json
+db-backup*.json
 *-log
 *.log
