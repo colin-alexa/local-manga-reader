@@ -2,8 +2,7 @@ module Data.Series exposing (..)
 
 import Data.ApiId exposing (ApiId, idDecoder)
 import Json.Decode as Decode exposing (Decoder, maybe, string)
-import Json.Decode.Pipeline exposing (optional, required)
-import Url exposing (Url)
+import Json.Decode.Pipeline exposing (required)
 
 
 type alias Series =

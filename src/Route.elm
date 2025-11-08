@@ -35,8 +35,8 @@ matchRoute =
         ]
 
 
-pushUrl : Route -> Nav.Key -> Cmd msg
-pushUrl route navKey =
+pushUrl : Nav.Key -> Route -> Cmd msg
+pushUrl navKey route =
     urlForRoute route |> Nav.pushUrl navKey
 
 

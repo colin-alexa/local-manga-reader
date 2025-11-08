@@ -9,6 +9,8 @@ import Page.AllSeries as AllSeries
 import Page.AllSeries.View as AllSeriesView
 import Page.Chapter as Chapter
 import Page.Chapter.View as ChapterView
+import Page.Reader as Reader
+import Page.Reader.View as ReaderView
 import Page.Series as Series
 import Page.Series.View as SeriesView
 import Platform.Cmd as Cmd
@@ -40,7 +42,7 @@ type Page
     | AllSeriesPage AllSeries.Model
     | SeriesPage Series.Model
     | ChapterPage Chapter.Model
-    | ReaderPage
+    | ReaderPage Reader.Model
 
 
 type ApplicationMsg
@@ -49,6 +51,7 @@ type ApplicationMsg
     | AllSeriesPageMsg AllSeries.Msg
     | SeriesPageMsg Series.Msg
     | ChapterPageMsg Chapter.Msg
+    | ReaderPageMsg Reader.Msg
 
 
 initApplication : () -> Url -> Nav.Key -> ( Application, Cmd ApplicationMsg )
@@ -93,7 +96,11 @@ initCurrentPage ( app, appCommands ) =
                     ( ChapterPage pageModel, Cmd.map ChapterPageMsg pageCommands )
 
                 Route.Reader seriesId chapterId pageNumber ->
-                    ( ReaderPage, Cmd.none )
+                    let
+                        ( pageModel, pageCommands ) =
+                            Reader.init app.navKey seriesId chapterId pageNumber
+                    in
+                    ( ReaderPage pageModel, Cmd.map ReaderPageMsg pageCommands )
     in
     ( { app | page = currentPage }, Cmd.batch [ appCommands, pageInitCommands ] )
 
@@ -101,6 +108,15 @@ initCurrentPage ( app, appCommands ) =
 updateApplication : ApplicationMsg -> Application -> ( Application, Cmd ApplicationMsg )
 updateApplication msg app =
     case ( msg, app.page ) of
+        ( AllSeriesPageMsg pageMsg, AllSeriesPage model ) ->
+            let
+                ( newModel, newCommand ) =
+                    AllSeries.update pageMsg model
+            in
+            ( { app | page = AllSeriesPage newModel }
+            , Cmd.map AllSeriesPageMsg newCommand
+            )
+
         ( SeriesPageMsg pageMsg, SeriesPage model ) ->
             let
                 ( newModel, newCommand ) =
@@ -117,6 +133,15 @@ updateApplication msg app =
             in
             ( { app | page = ChapterPage newModel }
             , Cmd.map ChapterPageMsg newCommand
+            )
+
+        ( ReaderPageMsg pageMsg, ReaderPage model ) ->
+            let
+                ( newModel, newCommand ) =
+                    Reader.update pageMsg model
+            in
+            ( { app | page = ReaderPage newModel }
+            , Cmd.map ReaderPageMsg newCommand
             )
 
         ( LinkClicked req, _ ) ->
@@ -149,8 +174,8 @@ viewApplication app =
         AllSeriesPage model ->
             Html.map AllSeriesPageMsg <| AllSeriesView.view model
 
-        _ ->
-            Html.text "not implemented...yet ;)"
+        ReaderPage model ->
+            Html.map ReaderPageMsg <| ReaderView.view model
 
 
 notFoundView : Html.Html ApplicationMsg

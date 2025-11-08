@@ -5,6 +5,7 @@ import Css exposing (..)
 import Html.Styled as Styled exposing (..)
 import Html.Styled.Attributes exposing (..)
 import Page.AllSeries exposing (Model, Msg(..), Series)
+import Route exposing (Route(..), urlForRoute)
 import VirtualDom
 
 
@@ -12,7 +13,7 @@ view : Model -> VirtualDom.Node Msg
 view model =
     Styled.toUnstyled
         (webDataView
-            { loading = loadingSpinner (pct 10) [] []
+            { loading = loadingSpinner (rem 5) [] []
             , error = text
             , view = viewAllSeries
             }
@@ -43,6 +44,13 @@ seriesList =
         ]
 
 
+seriesLink : Series -> Html Msg
+seriesLink series =
+    a
+        [ href <| urlForRoute (Route.Series series.id) ]
+        [ text <| series.name ++ ", by " ++ Maybe.withDefault "unknown" series.author ]
+
+
 seriesCard : Series -> Html Msg
 seriesCard series =
     styled div
@@ -50,7 +58,7 @@ seriesCard series =
         , flexDirection column
         ]
         []
-        [ text <| series.name ++ ", by " ++ Maybe.withDefault "unknown" series.author
+        [ seriesLink series
         , webDataView
             { loading = loadingSpinner (rem 1) [] []
             , error = text

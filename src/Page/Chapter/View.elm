@@ -104,7 +104,7 @@ viewPagePreview : PreviewImageSize -> Chapter -> Int -> Styled.Html Msg
 viewPagePreview size chapter page =
     let
         maybeImageUrl =
-            getPageAssetUrl chapter page
+            getPageAssetUrl { chapter = chapter, page = page }
     in
     case maybeImageUrl of
         Nothing ->

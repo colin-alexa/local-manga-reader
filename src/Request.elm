@@ -2,6 +2,7 @@ module Request exposing (countChaptersForSeries, getAllSeries, getChapter, getCh
 
 import Data.ApiId exposing (ApiId, formatId)
 import Data.Chapter exposing (chapterDecoder, chaptersDecoder)
+import Data.ReaderLocation exposing (ReaderLocation)
 import Data.Series exposing (seriesDecoder)
 import Dict
 import Http
@@ -161,8 +162,8 @@ getChapter id f =
         )
 
 
-getPageAssetUrl : Data.Chapter.Chapter -> Int -> Maybe String
-getPageAssetUrl chapter page =
+getPageAssetUrl : { a | chapter : Data.Chapter.Chapter, page : Int } -> Maybe String
+getPageAssetUrl { chapter, page } =
     if page < 1 || page > chapter.pageCount then
         Nothing
 
@@ -208,7 +209,7 @@ getJsonApiTotalCount : Http.Metadata -> a -> HttpResult Int
 getJsonApiTotalCount { headers } _ =
     let
         maybeCount =
-            Dict.get "X-Total-Count" headers
+            Dict.get "x-total-count" headers
     in
     Result.fromMaybe (Http.BadStatus 400) (maybeCount |> Maybe.andThen String.toInt)
 
