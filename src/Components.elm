@@ -37,7 +37,7 @@ pageHeaderView attrs navItems pageControls =
         , top zero
         ]
         attrs
-        [ div [] navItems
+        [ div [] (List.intersperse (text " > ") navItems)
         , controls [] pageControls
         ]
 
@@ -48,7 +48,12 @@ pageHeaderView attrs navItems pageControls =
 
 navLink : Route -> String -> Html msg
 navLink r s =
-    a [ href <| Route.urlForRoute r ] [ text s ]
+    styled a
+        [ color (hex "0268e5")
+        , visited [ color (hex "0268e5") ]
+        ]
+        [ href <| Route.urlForRoute r ]
+        [ text s ]
 
 
 

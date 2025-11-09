@@ -13,7 +13,6 @@ import Page.Reader exposing (Media(..), Model, Msg(..))
 import RemoteData exposing (WebData)
 import Request exposing (getPageAssetUrl)
 import Route exposing (Route(..))
-import VirtualDom
 
 
 view : Model -> Html.Html Msg
@@ -28,14 +27,14 @@ view model =
                 , pageNav model.location
                 ]
                 []
-            , viewLoadedPage model.location
+            , reader model
             ]
 
 
 seriesNav : WebData Series -> Styled.Html Msg
 seriesNav seriesData =
     webDataView
-        { loading = loadingSpinner (rem 1) [] []
+        { loading = styled (loadingSpinner (rem 1)) [ display inline ] [] []
         , error = text
         , view = \series -> navLink (Route.Series series.id) series.name
         }
@@ -45,7 +44,7 @@ seriesNav seriesData =
 chapterNav : WebData ReaderLocation -> Styled.Html Msg
 chapterNav locationData =
     webDataView
-        { loading = loadingSpinner (rem 1) [] []
+        { loading = styled (loadingSpinner (rem 1)) [ display inline ] [] []
         , error = text
         , view = \{ chapter } -> navLink (Route.Chapter chapter.seriesId chapter.id) chapter.name
         }
@@ -55,7 +54,7 @@ chapterNav locationData =
 pageNav : WebData ReaderLocation -> Styled.Html Msg
 pageNav locationData =
     webDataView
-        { loading = loadingSpinner (rem 1) [] []
+        { loading = styled (loadingSpinner (rem 1)) [ display inline ] [] []
         , error = text
         , view =
             \{ chapter, page } ->
@@ -66,6 +65,7 @@ pageNav locationData =
         locationData
 
 
+controlsHeight : Media -> In
 controlsHeight media =
     case media of
         Mobile _ ->
@@ -75,30 +75,42 @@ controlsHeight media =
             inches 0
 
 
+pageImage : List (Styled.Attribute msg) -> List (Styled.Html msg) -> Styled.Html msg
+pageImage =
+    styled img [ height (pct 100) ]
+
+
+pageHeight : Media -> CalculatedLength
 pageHeight media =
     calc (vh 100) minus (controlsHeight media)
 
 
+readerContainer : Media -> List (Styled.Attribute msg) -> List (Styled.Html msg) -> Styled.Html msg
 readerContainer media =
     styled div
         [ position relative
         , marginTop (px 20)
         , height (pageHeight media)
+        , maxWidth minContent
         ]
 
 
+navigateLeftOverlay : List (Styled.Attribute msg) -> List (Styled.Html msg) -> Styled.Html msg
 navigateLeftOverlay =
     styled div
         [ position absolute
+        , top zero
         , left zero
         , width (pct 50)
         , height (pct 100)
         ]
 
 
+navigateRightOverlay : List (Styled.Attribute msg) -> List (Styled.Html msg) -> Styled.Html msg
 navigateRightOverlay =
     styled div
         [ position absolute
+        , top zero
         , right zero
         , width (pct 50)
         , height (pct 100)
@@ -111,6 +123,7 @@ reader model =
         []
         [ viewLoadedPage model.location
         , navigateLeftOverlay [ onClick PrevPage ] []
+        , navigateRightOverlay [ onClick NextPage ] []
         ]
 
 
@@ -132,7 +145,7 @@ viewPageImage location =
     in
     case maybeImageUrl of
         Nothing ->
-            img [] []
+            pageImage [] []
 
         Just url ->
-            img [ src url ] []
+            pageImage [ src url ] []

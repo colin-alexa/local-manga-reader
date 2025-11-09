@@ -45,3 +45,8 @@ update msg model =
 
         SetImagePreviewSize newSize ->
             ( { model | previewSize = newSize }, Cmd.none )
+
+
+subscriptions : Model -> Sub Msg
+subscriptions model =
+    Sub.none

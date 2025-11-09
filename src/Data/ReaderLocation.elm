@@ -13,15 +13,20 @@ type alias ReaderLocation =
 find : (x -> Bool) -> List x -> Maybe x
 find test haystack =
     List.foldl
-        (\y _ ->
+        (\y acc ->
             if test y then
                 Just y
 
             else
-                Nothing
+                acc
         )
         Nothing
         haystack
+
+
+lastItem : List x -> Maybe x
+lastItem =
+    List.foldl (\x _ -> Just x) Nothing
 
 
 itemBefore : List x -> x -> Maybe x
@@ -38,7 +43,7 @@ itemBefore haystack needle =
                 Just x
 
             else
-                itemBefore rest needle
+                itemBefore (y :: rest) needle
 
 
 itemAfter : List x -> x -> Maybe x
@@ -55,7 +60,17 @@ itemAfter haystack needle =
                 Just y
 
             else
-                itemAfter rest needle
+                itemAfter (y :: rest) needle
+
+
+isFirstLocation : ReaderLocation -> Bool
+isFirstLocation { seriesChapters, chapter, page } =
+    page == 1 && Just chapter == List.head seriesChapters
+
+
+isLastLocation : ReaderLocation -> Bool
+isLastLocation { seriesChapters, chapter, page } =
+    page == chapter.pageCount && Just chapter == lastItem seriesChapters
 
 
 locationOr404 : ApiId -> Int -> List Chapter -> WebData ReaderLocation
@@ -78,7 +93,10 @@ locationOr404 chapterId page chapters =
 
 previousPage : ReaderLocation -> ReaderLocation
 previousPage location =
-    if location.page == 1 then
+    if isFirstLocation location then
+        location
+
+    else if location.page == 1 then
         let
             { chapter } =
                 previousChapter location
@@ -91,21 +109,28 @@ previousPage location =
 
 previousChapter : ReaderLocation -> ReaderLocation
 previousChapter location =
-    let
-        chapter =
-            itemBefore location.seriesChapters location.chapter
-    in
-    case chapter of
-        Nothing ->
-            location
+    if isFirstLocation location then
+        location
 
-        Just c ->
-            { location | chapter = c, page = 1 }
+    else
+        let
+            chapter =
+                itemBefore location.seriesChapters location.chapter
+        in
+        case chapter of
+            Nothing ->
+                location
+
+            Just c ->
+                { location | chapter = c, page = 1 }
 
 
 nextPage : ReaderLocation -> ReaderLocation
 nextPage location =
-    if location.page == location.chapter.pageCount then
+    if isLastLocation location then
+        location
+
+    else if location.page == location.chapter.pageCount then
         let
             { chapter } =
                 nextChapter location
@@ -118,13 +143,17 @@ nextPage location =
 
 nextChapter : ReaderLocation -> ReaderLocation
 nextChapter location =
-    let
-        chapter =
-            itemAfter location.seriesChapters location.chapter
-    in
-    case chapter of
-        Nothing ->
-            location
+    if isLastLocation location then
+        location
 
-        Just c ->
-            { location | chapter = c, page = 1 }
+    else
+        let
+            chapter =
+                itemAfter location.seriesChapters location.chapter
+        in
+        case chapter of
+            Nothing ->
+                location
+
+            Just c ->
+                { location | chapter = c, page = 1 }

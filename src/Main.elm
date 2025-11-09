@@ -3,6 +3,7 @@ module Main exposing (main)
 -- import Page.EditPost as EditPost
 
 import Browser exposing (UrlRequest)
+import Browser.Events exposing (onKeyPress)
 import Browser.Navigation as Nav
 import Html
 import Page.AllSeries as AllSeries
@@ -24,7 +25,7 @@ main =
         { init = initApplication
         , view = \app -> { title = "Personal Manga Reader", body = [ viewApplication app ] }
         , update = updateApplication
-        , subscriptions = \_ -> Sub.none
+        , subscriptions = subscriptionsForPage
         , onUrlRequest = LinkClicked
         , onUrlChange = UrlChanged
         }
@@ -181,3 +182,16 @@ viewApplication app =
 notFoundView : Html.Html ApplicationMsg
 notFoundView =
     Html.h3 [] [ Html.text "Oops! Page not found!" ]
+
+
+subscriptionsForPage : Application -> Sub ApplicationMsg
+subscriptionsForPage app =
+    case app.page of
+        ReaderPage model ->
+            Sub.map ReaderPageMsg (Reader.subscriptions model)
+
+        ChapterPage model ->
+            Sub.map ChapterPageMsg (Chapter.subscriptions model)
+
+        _ ->
+            Sub.none

@@ -1,11 +1,13 @@
 module Page.Reader exposing (..)
 
 import Browser.Dom exposing (Viewport, getViewport)
+import Browser.Events exposing (onKeyDown, onKeyPress, onResize)
 import Browser.Navigation as Nav
 import Data.ApiId exposing (ApiId)
 import Data.Chapter exposing (Chapter)
 import Data.ReaderLocation as ReaderLocation exposing (ReaderLocation)
 import Data.Series exposing (Series)
+import Json.Decode
 import RemoteData exposing (WebData)
 import Request
 import Route
@@ -23,11 +25,15 @@ type alias Model =
     , series : WebData Series
     , location : WebData ReaderLocation
     , media : Media
+    , textareaFocused : Bool
     }
 
 
 type Msg
-    = SetMedia Media
+    = Noop
+    | SetMedia Media
+    | UpdateMedia
+    | SetTextareaFocus Bool
     | SeriesReceived (WebData Series)
     | ChaptersReceived ApiId Int (WebData (List Chapter))
     | PrevPage
@@ -57,6 +63,7 @@ init navKey series chapter page =
       , series = RemoteData.Loading
       , location = RemoteData.Loading
       , media = Unknown
+      , textareaFocused = False
       }
     , Cmd.batch
         [ queryMedia
@@ -66,15 +73,47 @@ init navKey series chapter page =
     )
 
 
+updateLocation : (ReaderLocation -> ReaderLocation) -> Model -> ( Model, Cmd Msg )
+updateLocation getNewLocation model =
+    RemoteData.unwrap
+        (noop model)
+        (\location ->
+            let
+                newLocation =
+                    getNewLocation location
+            in
+            ( { model | location = RemoteData.Success newLocation }
+            , Route.pushUrl
+                model.navKey
+                (Route.Reader
+                    newLocation.chapter.seriesId
+                    newLocation.chapter.id
+                    newLocation.page
+                )
+            )
+        )
+        model.location
+
+
+noop : a -> ( a, Cmd Msg )
+noop m =
+    ( m, Cmd.none )
+
+
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
-    let
-        noop =
-            ( model, Cmd.none )
-    in
     case msg of
+        Noop ->
+            noop model
+
         SetMedia media ->
             ( { model | media = media }, Cmd.none )
+
+        UpdateMedia ->
+            ( model, queryMedia )
+
+        SetTextareaFocus state ->
+            ( { model | textareaFocused = state }, Cmd.none )
 
         SeriesReceived seriesData ->
             ( { model | series = seriesData }, Cmd.none )
@@ -83,29 +122,52 @@ update msg model =
             ( { model | location = RemoteData.andThen (ReaderLocation.locationOr404 chapterId page) chapterData }, Cmd.none )
 
         PrevPage ->
-            RemoteData.unwrap
-                noop
-                (\location ->
-                    ( model
-                    , Route.pushUrl
-                        model.navKey
-                        (Route.Reader
-                            location.chapter.seriesId
-                            location.chapter.id
-                            location.page
-                        )
-                    )
-                )
-                model.location
+            updateLocation ReaderLocation.previousPage model
 
         PrevChapter ->
-            Debug.todo "branch 'PrevChapter' not implemented"
+            updateLocation ReaderLocation.previousChapter model
 
         NextPage ->
-            Debug.todo "branch 'NextPage' not implemented"
+            updateLocation ReaderLocation.nextPage model
 
         NextChapter ->
-            Debug.todo "branch 'NextChapter' not implemented"
+            updateLocation ReaderLocation.nextChapter model
 
         JumpTo _ ->
             Debug.todo "branch 'JumpTo _' not implemented"
+
+
+keyToMsg : String -> Msg
+keyToMsg key =
+    case key of
+        "ArrowLeft" ->
+            PrevPage
+
+        "ArrowUp" ->
+            PrevChapter
+
+        "ArrowDown" ->
+            NextChapter
+
+        "ArrowRight" ->
+            NextPage
+
+        _ ->
+            Noop
+
+
+keypressDecoder : { a | textareaFocused : Bool } -> Json.Decode.Decoder Msg
+keypressDecoder model =
+    if model.textareaFocused then
+        Json.Decode.succeed Noop
+
+    else
+        Json.Decode.map keyToMsg (Json.Decode.field "key" Json.Decode.string)
+
+
+subscriptions : Model -> Sub Msg
+subscriptions model =
+    Sub.batch
+        [ onKeyDown (keypressDecoder model)
+        , onResize (\w h -> UpdateMedia)
+        ]
