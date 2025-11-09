@@ -1,7 +1,7 @@
 module Page.Reader exposing (..)
 
 import Browser.Dom exposing (Viewport, getViewport)
-import Browser.Events exposing (onKeyDown, onKeyPress, onResize)
+import Browser.Events exposing (onKeyDown, onResize)
 import Browser.Navigation as Nav
 import Data.ApiId exposing (ApiId)
 import Data.Chapter exposing (Chapter)

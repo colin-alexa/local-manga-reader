@@ -3,7 +3,6 @@ module Main exposing (main)
 -- import Page.EditPost as EditPost
 
 import Browser exposing (UrlRequest)
-import Browser.Events exposing (onKeyPress)
 import Browser.Navigation as Nav
 import Html
 import Page.AllSeries as AllSeries

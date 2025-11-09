@@ -11,6 +11,7 @@ type alias Chapter =
     , number : Int
     , name : String
     , pageCount : Int
+    , tags : List String
     , volumeNumber : Maybe Int
     , summary : Maybe String
     }
@@ -24,6 +25,7 @@ chapterDecoder =
         |> required "number" int
         |> required "name" string
         |> required "pageCount" int
+        |> required "tags" (list string)
         |> optional "volumeNumber" (maybe int) Nothing
         |> optional "summary" (maybe string) Nothing
 

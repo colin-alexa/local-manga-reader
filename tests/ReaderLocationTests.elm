@@ -16,6 +16,7 @@ getChapter id =
     , number = id
     , name = "Chapter " ++ String.fromInt id
     , pageCount = 20
+    , tags = []
     , volumeNumber = Nothing
     , summary = Nothing
     }
