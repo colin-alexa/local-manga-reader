@@ -3,8 +3,8 @@ module ReaderLocationTests exposing (..)
 import Data.ApiId exposing (ApiId(..))
 import Data.Chapter exposing (Chapter)
 import Data.ReaderLocation exposing (..)
-import Expect exposing (Expectation)
-import Fuzz exposing (Fuzzer, int, intAtLeast, intRange, list)
+import Expect
+import Fuzz exposing (Fuzzer, intAtLeast, intRange)
 import Request exposing (getChapter)
 import Test exposing (..)
 

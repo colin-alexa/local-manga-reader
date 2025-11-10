@@ -9,6 +9,7 @@ import Html
 import Html.Styled as Styled exposing (a, div, img, label, styled, text)
 import Html.Styled.Attributes exposing (for, href, id, src)
 import Html.Styled.Events exposing (onClick)
+import MultiInput
 import Page.Reader exposing (Media(..), Model, Msg(..))
 import RemoteData exposing (WebData)
 import Request exposing (getPageAssetUrl)
@@ -27,7 +28,12 @@ view model =
                 , pageNav model.location
                 ]
                 []
-            , reader model
+            , case model.media of
+                Desktop _ ->
+                    desktopReader [] [ reader model, desktopNotes model ]
+
+                _ ->
+                    reader model
             ]
 
 
@@ -124,6 +130,48 @@ reader model =
         [ viewLoadedPage model.location
         , navigateLeftOverlay [ onClick PrevPage ] []
         , navigateRightOverlay [ onClick NextPage ] []
+        ]
+
+
+tagSelect : Model -> Styled.Html Msg
+tagSelect model =
+    model.tagSelect.items
+        |> webDataView
+            { loading = loadingSpinner (rem 10) [] []
+            , error = text
+            , view =
+                \items ->
+                    styled div
+                        []
+                        []
+                        [ Styled.fromUnstyled <|
+                            MultiInput.view
+                                { placeholder = "Tags..."
+                                , toOuterMsg = TagInputMsg
+
+                                -- TODO test against allowed tags
+                                , isValid = \_ -> model.allowFreeformTags || True
+                                }
+                                []
+                                items
+                                model.tagSelect.state
+                        ]
+            }
+
+
+desktopNotes : Model -> Styled.Html Msg
+desktopNotes model =
+    styled div
+        [ maxWidth (px 500), width (pct 20), minWidth (px 200) ]
+        []
+        [ tagSelect model
+        ]
+
+
+desktopReader : List (Styled.Attribute msg) -> List (Styled.Html msg) -> Styled.Html msg
+desktopReader =
+    styled div
+        [ displayFlex
         ]
 
 

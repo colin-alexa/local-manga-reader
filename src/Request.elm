@@ -1,12 +1,20 @@
-module Request exposing (countChaptersForSeries, getAllSeries, getChapter, getChaptersForSeries, getPageAssetUrl, getSeries)
+module Request exposing
+    ( countChaptersForSeries
+    , getAllSeries
+    , getChapter
+    , getChaptersForSeries
+    , getPageAssetUrl
+    , getSeries
+    , getTagsForLocation
+    )
 
 import Data.ApiId exposing (ApiId, formatId)
 import Data.Chapter exposing (chapterDecoder, chaptersDecoder)
-import Data.ReaderLocation exposing (ReaderLocation)
 import Data.Series exposing (seriesDecoder)
 import Dict
 import Http
 import Json.Decode
+import Json.Decode.Pipeline
 import RemoteData exposing (WebData)
 import Url exposing (Protocol(..))
 import Url.Builder as Builder exposing (QueryParameter)
@@ -27,6 +35,7 @@ type ApiResource
     | Chapter ApiId
     | AllSeries
     | Series ApiId
+    | LocationTags { chapter : Data.Chapter.Chapter, page : Int }
 
 
 type ApiComparison
@@ -113,6 +122,14 @@ apiResourceToUrl resource =
         Series seriesId ->
             Builder.crossOrigin apiHost [ "series", formatId seriesId ] []
 
+        LocationTags location ->
+            Builder.crossOrigin apiHost [ "locationTags" ] <|
+                formatQuery
+                    [ Filter "seriesId" EQ (formatId location.chapter.seriesId)
+                    , Filter "chapterId" EQ (formatId location.chapter.id)
+                    , Filter "page" EQ (String.fromInt location.page)
+                    ]
+
 
 getApiResource : ApiResource -> Http.Expect msg -> Cmd msg
 getApiResource resource expect =
@@ -159,6 +176,30 @@ getChapter id f =
         (Http.expectJson
             (f << RemoteData.fromResult)
             chapterDecoder
+        )
+
+
+locationTagsDecoder : Json.Decode.Decoder (List (List String))
+locationTagsDecoder =
+    Json.Decode.list
+        (Json.Decode.succeed identity
+            |> Json.Decode.Pipeline.required "tags" (Json.Decode.list Json.Decode.string)
+        )
+
+
+getTagsForLocation :
+    { a | chapter : Data.Chapter.Chapter, page : Int }
+    -> (WebData (List String) -> msg)
+    -> Cmd msg
+getTagsForLocation { chapter, page } f =
+    getApiResource
+        (LocationTags { chapter = chapter, page = page })
+        (Http.expectJson
+            (f
+                << RemoteData.map (\listOfTags -> Maybe.withDefault [] (List.head listOfTags))
+                << RemoteData.fromResult
+            )
+            locationTagsDecoder
         )
 
 

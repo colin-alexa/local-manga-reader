@@ -1,8 +1,8 @@
 module Data.Note exposing (..)
 
 import Data.ApiId exposing (ApiId, idDecoder, idEncoder)
-import Json.Decode as Decode exposing (Decoder, list, maybe, string)
-import Json.Decode.Pipeline exposing (optional, required)
+import Json.Decode as Decode exposing (Decoder, list, string)
+import Json.Decode.Pipeline exposing (required)
 import Json.Encode as Encode
 
 

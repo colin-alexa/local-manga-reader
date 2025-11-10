@@ -8,6 +8,7 @@ import Data.Chapter exposing (Chapter)
 import Data.ReaderLocation as ReaderLocation exposing (ReaderLocation)
 import Data.Series exposing (Series)
 import Json.Decode
+import MultiInput
 import RemoteData exposing (WebData)
 import Request
 import Route
@@ -25,7 +26,12 @@ type alias Model =
     , series : WebData Series
     , location : WebData ReaderLocation
     , media : Media
-    , textareaFocused : Bool
+    , allowKeyboardNavigation : Bool
+    , tagSelect :
+        { items : WebData (List String)
+        , state : MultiInput.State
+        }
+    , allowFreeformTags : Bool
     }
 
 
@@ -33,9 +39,11 @@ type Msg
     = Noop
     | SetMedia Media
     | UpdateMedia
-    | SetTextareaFocus Bool
+    | SetAllowKeyboardNavigation Bool
     | SeriesReceived (WebData Series)
     | ChaptersReceived ApiId Int (WebData (List Chapter))
+    | TagsReceived (WebData (List String))
+    | TagInputMsg MultiInput.Msg
     | PrevPage
     | PrevChapter
     | NextPage
@@ -63,7 +71,12 @@ init navKey series chapter page =
       , series = RemoteData.Loading
       , location = RemoteData.Loading
       , media = Unknown
-      , textareaFocused = False
+      , allowKeyboardNavigation = True
+      , allowFreeformTags = True
+      , tagSelect =
+            { items = RemoteData.NotAsked
+            , state = MultiInput.init "tags"
+            }
       }
     , Cmd.batch
         [ queryMedia
@@ -112,14 +125,51 @@ update msg model =
         UpdateMedia ->
             ( model, queryMedia )
 
-        SetTextareaFocus state ->
-            ( { model | textareaFocused = state }, Cmd.none )
+        SetAllowKeyboardNavigation state ->
+            ( { model | allowKeyboardNavigation = state }, Cmd.none )
 
         SeriesReceived seriesData ->
             ( { model | series = seriesData }, Cmd.none )
 
         ChaptersReceived chapterId page chapterData ->
-            ( { model | location = RemoteData.andThen (ReaderLocation.locationOr404 chapterId page) chapterData }, Cmd.none )
+            let
+                locationData =
+                    RemoteData.andThen (ReaderLocation.locationOr404 chapterId page) chapterData
+            in
+            locationData
+                |> RemoteData.unwrap (noop { model | location = locationData })
+                    (\location ->
+                        ( { model
+                            | location = locationData
+                            , tagSelect =
+                                { items = RemoteData.Loading
+                                , state = model.tagSelect.state
+                                }
+                          }
+                        , Request.getTagsForLocation location TagsReceived
+                        )
+                    )
+
+        TagsReceived tagsData ->
+            ( { model | tagSelect = { items = tagsData, state = model.tagSelect.state } }, Cmd.none )
+
+        TagInputMsg multiInputMsg ->
+            model.tagSelect.items
+                |> RemoteData.unwrap (noop model)
+                    (\tags ->
+                        let
+                            ( newState, newTags, tagSelectCmd ) =
+                                MultiInput.update { separators = [ "\n", "\t", "," ] } multiInputMsg model.tagSelect.state tags
+                        in
+                        ( { model
+                            | tagSelect =
+                                { items = RemoteData.Success newTags
+                                , state = newState
+                                }
+                          }
+                        , Cmd.map TagInputMsg tagSelectCmd
+                        )
+                    )
 
         PrevPage ->
             updateLocation ReaderLocation.previousPage model
@@ -156,13 +206,13 @@ keyToMsg key =
             Noop
 
 
-keypressDecoder : { a | textareaFocused : Bool } -> Json.Decode.Decoder Msg
+keypressDecoder : { a | allowKeyboardNavigation : Bool } -> Json.Decode.Decoder Msg
 keypressDecoder model =
-    if model.textareaFocused then
-        Json.Decode.succeed Noop
+    if model.allowKeyboardNavigation then
+        Json.Decode.map keyToMsg (Json.Decode.field "key" Json.Decode.string)
 
     else
-        Json.Decode.map keyToMsg (Json.Decode.field "key" Json.Decode.string)
+        Json.Decode.succeed Noop
 
 
 subscriptions : Model -> Sub Msg
@@ -170,4 +220,5 @@ subscriptions model =
     Sub.batch
         [ onKeyDown (keypressDecoder model)
         , onResize (\w h -> UpdateMedia)
+        , Sub.map TagInputMsg <| MultiInput.subscriptions model.tagSelect.state
         ]
